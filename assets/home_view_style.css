@@ -27,7 +27,7 @@ a:active {
 
 #myCarousel img {
 	margin-top: 100px;
-    width: 1900px;
+    width: 100%;
 }
 
 .subcontent{
@@ -118,6 +118,14 @@ div#bottom {
     display: inline-block;
     width: 200px;
     margin: 0px 30px;
+}
+
+#addtobagbutton {
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.item_title {
+    font-weight: bolder;
 }
 
 .container_top {
@@ -230,6 +238,9 @@ div.product img {
 .navbar-bottom {
     background-color: black;
 }
+#profile {
+    margin-left: 200px;
+}
 
 .footer {
 	background-color: black;
@@ -237,8 +248,11 @@ div.product img {
     width: 100%;
     text-align: center;
 /*    margin-top: 80px;*/
+    position: relative;
+    bottom: 0;
     clear: both;
 }
+.footer_login {}
 
 .footer_header {
     color: gray;
@@ -534,8 +548,24 @@ body {
     margin: 15px 0px 0px;
     
 }
+.return {
+    margin-bottom: 200px;
+}
 span{
     font-weight: bold;
+}
+.item_description {
+    font-weight: bolder;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+.item_price {
+    font-size: 2em;
+}
+.select_size {
+    border: 2px solid black;
+    font-size: 1.5em;
+    background-color: white;
 }
 .learnMore{
     border:0px;
@@ -561,6 +591,9 @@ span{
     font-size:13px;
     margin:4px 0px 0px;
 }
+.about_us {
+    margin-bottom: 80px;
+}
 .black{
     color:black;
     font-size:15px;
@@ -580,73 +613,71 @@ span{
     text-align: center;
     margin: 0px;
 }
+.description{
+    font-size: 11px;
+    font-weight: bold;
+    width:312px;
+    height:132px;
+}
+.productImage{
+    height:131px;
+    width:87px;
+}
+.bagList{
+    margin: 8px 0px;
 
+}
+.size, .qty, .price{
+    text-align: center;
+}
+.bottomContents{
+    margin: 15px;
+}
+.continue{
+    font-size: 11px;
+    font-weight: bold;
+    display:inline-block;
+    vertical-align: top;
+}
+.cont {
+    color: black;
+}
+.total{
+    display: inline-block;
+    margin-left: 378px;
+}
+.totalStyle{
+    width: 333px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.money{
+    text-align: right;
+}
 
-        .description{
-            font-size: 11px;
-            font-weight: bold;
-            width:312px;
-            height:132px;
-        }
-        .productImage{
-            height:131px;
-            width:87px;
-        }
-        .bagList{
-            margin: 8px 0px;
+.clothesList{
+    width: 800px;
+    border-top: 2px solid #d3d3d3;
+    border-bottom: 2px solid #d3d3d3;
+}
 
-        }
-        .size, .qty, .price{
-            text-align: center;
-        }
-        .bottomContents{
-            margin: 15px;
-        }
-        .continue{
-            font-size: 11px;
-            font-weight: bold;
-            display:inline-block;
-            vertical-align: top;
-        }
-        .cont {
-            color: black;
-        }
-        .total{
-            display: inline-block;
-            margin-left: 378px;
-        }
-        .totalStyle{
-            width: 333px;
-            font-size: 11px;
-            font-weight: bold;
-        }
-        .money{
-            text-align: right;
-        }
-
-        .clothesList{
-            width: 800px;
-            border-top: 2px solid #d3d3d3;
-            border-bottom: 2px solid #d3d3d3;
-        }
-
-        td{
-            padding: 0px 30px;
-            font-size: 11px;
-            font-weight: bold;
-        }
-        input.submit{
-            background-color: black;
-            color: white;
-            width: 366px;
-            height: 50px;
-            margin: 10px 0px 10px 28px;
-            border-radius: 0px;
-            border:none;
-        }
-        #bag_action{
-            color:black;
-        }
+td{
+    padding: 0px 30px;
+    font-size: 11px;
+    font-weight: bold;
+}
+input.submit{
+    background-color: black;
+    color: white;
+    width: 366px;
+    height: 50px;
+    margin: 10px 0px 10px 28px;
+    border-radius: 0px;
+    border:none;
+}
+#bag_action{
+    color:black;
+}
 
 
 

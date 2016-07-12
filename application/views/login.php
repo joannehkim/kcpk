@@ -11,6 +11,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
   <link rel="stylesheet" type="text/css" href="/assets/home_view_style.css">
+  <style type="text/css">
+    .footer {
+        position: fixed;
+        bottom: 0;
+    }
+  </style>
   </head>
 
 <body>
@@ -85,7 +91,6 @@ $this->load->view('/partials/header.php');
     </div>
 </div>
 
-<?php $this->load->view('/partials/footer');?>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

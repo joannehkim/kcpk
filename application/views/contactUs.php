@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Welcome to NastyKev</title>
+<title>KCPK</title>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -15,6 +15,17 @@
     <title></title>
 <!-- CSS here -->
 <link rel="stylesheet" type="text/css" href="/assets/home_view_style.css">
+
+<style type="text/css">
+    .footer {
+        position: fixed;
+        bottom: 0;
+        height: 150px;
+    }
+    .footer_header {
+        margin-top: 30px;
+    }
+</style>
 
 <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -33,7 +44,7 @@
 		text-align: center;
 		font-weight: bolder;
 		text-decoration: underline;
-		margin-top: 130px;
+		margin-top: 150px;
 	}
 	.bold{
 		font-size: 12px
@@ -58,10 +69,12 @@
 		margin-left: 65px;
 	}
 	.contact{
-		margin-left: 62px;
+		margin-left: 200px;
+		margin-top: -90px;
 	}
 	.storeInfo{
-		margin-left:100px;
+		margin-left:180px;
+		margin-top: 70px;
 	}
 	.space{
 		margin-left: 137px;
@@ -97,7 +110,7 @@ $this->load->view('/partials/header.php');
 			<li>Email us anytime and we will get back to you within 24hrs. </li>
 			<li><a class='black' href="#">sales.KCPK@gmail.com</a></li>
 		</ul>
-				<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJw6RwwlCVwoARiC7bawFo8kA&key=AIzaSyB1nE-MHOHZwi4CcywzU9lRhGe9hyLv4S4" allowfullscreen></iframe>
+<!-- 				<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJw6RwwlCVwoARiC7bawFo8kA&key=AIzaSyB1nE-MHOHZwi4CcywzU9lRhGe9hyLv4S4" allowfullscreen></iframe> -->
 	</div>
 
 	<div class="storeInfo">

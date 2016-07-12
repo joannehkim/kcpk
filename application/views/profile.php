@@ -45,7 +45,7 @@ $load->this->partial('header');
   </div><!-- /.container-fluid -->
 </nav>
 
-<div id = 'container'>
+<div id = 'profile'>
 	<h1>Hello, <?= $userInfo['first_name'] ?>!</h1>
 	<h2>Here are your past orders.</h2>
 	<table class = 'ordersList'>

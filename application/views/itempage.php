@@ -41,13 +41,13 @@
 		</div>
 
 		<div id="rightside">
-			<h3><?= $itemInfo['name']?></h3>
-			<h5><p class='bold'>$<?= $itemInfo['price'] ?></p></h5>	
+			<h3 class='item_title'><?= $itemInfo['name']?></h3>
+			<h5><p class='item_price'>$<?= $itemInfo['price'] ?></p></h5>	
 
 			<form id = 'cart' action='/products/add_to_cart' method='post'>
 				<div id="sizes"> 
 				<input type = 'hidden' name = 'product_id' value = '<?= $itemInfo['id']?>'>
-      				<select name ='size' form = 'cart'>
+      				<select name ='size' form = 'cart' class='select_size'>
       					<option class="btn btn--lg btn--full u-no-wrap u-padding-l--none u-padding-r--none">Pick Your Size</option>
 	    				<option name='size' value='xs'>X-Small</option>
 	    				<option name='size' value='s'>Small</option>
@@ -58,7 +58,7 @@
 				</div><br>
 
 				<div id="quantity">    	
-      				<select name = 'quantity' form = 'cart'>
+      				<select name = 'quantity' form = 'cart' class='select_size'>
       					<option class="btn btn--lg btn--full u-no-wrap u-padding-l--none u-padding-r--none">Quantity</option>
 	    				<option name='quantity' value='1'>One</option>
 	    				<option name='quantity' value='2'>Two</option>
@@ -70,7 +70,7 @@
 				<input id="addtobagbutton" class="btn btn--lg btn--full u-no-wrap u-padding-l--none u-padding-r--none" type="submit" value="ADD TO BAG" onclick="" style="overflow: visible;">				
 			</form>
 			<div id='description'>
-				<h4>Description</h4>
+				<h4 class='item_description'>Description</h4>
 					<h5><?= $itemInfo['description']?></h5>
 			</div>
 		</div>

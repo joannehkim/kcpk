@@ -16,6 +16,16 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
 <link rel="stylesheet" type="text/css" href="/assets/home_view_style.css">
+<style type="text/css">
+    .footer {
+        position: fixed;
+        bottom: 0;
+        height: 150px;
+    }
+    .footer_header {
+        margin-top: 30px;
+    }
+</style>
 </head>
 <body>
 

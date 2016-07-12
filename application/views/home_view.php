@@ -26,22 +26,18 @@
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
     </ol>
   
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <a href="/products/womenTees"><img src="/assets/banner_2.png" alt="Chania"></a>
+        <a href="/products/newArrivals"><img src="/assets/bomber.jpg" alt="Chania"></a>
       </div>
       <div class="item">
-        <a href="/products/shopOuterwear"><img src="/assets/banner_1.png" alt="Chania"></a>
+        <a href="/products/womenOuterwears"><img src="/assets/denim.jpg" alt="Chania"></a>
       </div>
       <div class="item">
-        <a href="/products/menTees"><img src="/assets/banner_3.png" alt="Flower"></a>
-      </div>
-      <div class="item">
-        <a href="/products/newArrivals"><img src="/assets/banner_4.png" alt="Flower"></a>
+        <a href="/products/menTees"><img src="/assets/arrivals.jpg" alt="Flower"></a>
       </div>
     </div>
   
